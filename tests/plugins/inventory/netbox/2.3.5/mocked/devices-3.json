@@ -1,0 +1,55 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": "http://localhost:8080/api/virtualization/virtual-machines/?limit=0&offset=1",
+  "results": [
+    {
+      "id": 5,
+      "name": "5-VirtualMachines",
+      "display_name": "5-VirtualMachines",
+      "tenant": null,
+      "platform": null,
+      "serial": "",
+      "asset_tag": null,
+      "site": {
+        "id": 5,
+        "url": "http://localhost:8080/api/dcim/sites/5/",
+        "name": "San Jose, CA",
+        "slug": "san-jose-ca"
+      },
+      "status": {
+        "value": 1,
+        "label": "Active"
+      },
+      "primary_ip": {
+        "id": 5,
+        "url": "http://localhost:8080/api/ipam/ip-addresses/5/",
+        "family": 4,
+        "address": "10.2.1.25/32"
+      },
+      "primary_ip4": {
+        "id": 5,
+        "url": "http://localhost:8080/api/ipam/ip-addresses/5/",
+        "family": 4,
+        "address": "10.2.1.25/32"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 5,
+        "url": "http://localhost:8080/api/virtualization/clusters/5/",
+        "name": "The 5 Cluster",
+        "slug":"the-5-cluster"
+      },
+      "role": {
+        "id": 5,
+        "url": "http://localhost:8080/api/dcim/device-roles/5/",
+        "name": "A Virtual Machine",
+        "slug": "a-virtual-machine"
+      },
+      "comments": "",
+      "custom_fields": {"user_defined": 1},
+      "created": "2018-07-12",
+      "last_updated": "2018-07-12T11:53:54.866133Z"
+    }
+  ]
+}
